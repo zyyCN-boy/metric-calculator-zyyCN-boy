@@ -13,13 +13,10 @@ class MetricCalculator:
     def calculate_mean(self, data):
         """
         计算数据列表的均值。
-        
         Args:
             data (list): 数值类型的列表
-            
         Returns:
             float: 列表的均值
-            
         Raises:
             TypeError: 当输入不是列表或包含非数值元素时
         """
